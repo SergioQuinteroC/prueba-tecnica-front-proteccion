@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080";
+const API_BASE_URL = "https://prueba-tecnica-proteccion-xdy6.onrender.com";
 
 // Crear instancia de axios con configuración base
 const api = axios.create({

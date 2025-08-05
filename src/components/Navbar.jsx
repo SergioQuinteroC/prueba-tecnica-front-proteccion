@@ -1,8 +1,4 @@
-import { useAuth } from "../contexts/AuthContext";
-
 const Navbar = () => {
-    const { user, logout } = useAuth();
-
     return (
         <nav className="navbar">
             <div className="navbar-content">
